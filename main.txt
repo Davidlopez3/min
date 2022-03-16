@@ -1,0 +1,38 @@
+public class mIN {
+
+    public static  void  main(String[] args ){
+
+                // int firstNumber = 3;
+                // int secondNumber = 4;
+        // main method
+
+        double i = 5.0;
+        double k = 4.0;
+
+        double larger = max (i, k);
+                    // change the datatype int to double type
+       printMessage(larger);
+       System.out.println("i = "+i + ", k = "+ k);
+    }
+    public static double max ( double firstNumber, double secondNumber )
+    {
+
+        firstNumber ++;
+        secondNumber ++;
+
+        //return costumer method
+        if (firstNumber > secondNumber)
+        return firstNumber;
+        else
+            return secondNumber;
+    }
+
+    public  static  void printMessage(double larger){
+        // print return
+
+        // in case of returning method statement
+       //  return ;
+        System.out.println(" The larger number is " + larger);
+    }
+
+}
